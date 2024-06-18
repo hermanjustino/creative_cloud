@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #484848;
+}
+
+.lookbook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+.lookbook img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+    .lookbook img {
+        width: 55%;
+    }
+}
